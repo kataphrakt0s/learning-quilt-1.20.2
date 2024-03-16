@@ -17,7 +17,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.kataphrakt0s.kataphrakt0s_first_mod.KataphraktFirstMod"
+			"init": "io.github.kataphrakt0s.kataphrakt_first_mod.KataphraktFirstMod"
 		},
 		"depends": [
 			{
