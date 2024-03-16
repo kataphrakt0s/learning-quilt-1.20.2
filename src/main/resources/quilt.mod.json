@@ -1,25 +1,23 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
+		"group": "io.github.kataphrakt0s",
+		"id": "kataphrakt_first_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Kataphrakt0s' First Mod",
+			"description": "Kataphrakt0s used this mod to learn quiltmc",
 			"contributors": {
-				"Your name here": "Owner"
+				"Kataphrakt0s": "Developer"
 			},
+			"license": "LGPL-3.0-or-later",
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
-			},
-			"icon": "assets/example_mod/icon.png"
+				"homepage": "https://kataphrakt0s.github.io"
+			}
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.kataphrakt0s.kataphrakt0s_first_mod.KataphraktFirstMod"
 		},
 		"depends": [
 			{
@@ -36,5 +34,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "kataphrakt_first_mod.mixins.json"
 }
