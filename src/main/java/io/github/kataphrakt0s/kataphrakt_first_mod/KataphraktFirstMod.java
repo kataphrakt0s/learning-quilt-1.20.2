@@ -2,10 +2,11 @@ package io.github.kataphrakt0s.kataphrakt_first_mod;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.impl.qsl.item.v1.QuiltItemCompatMod;
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Item;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.Registries;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.util.Identifier;
+//import net.minecraft.registry.Registry;
+//import net.minecraft.registry.Registries;
 import net.minecraft.item.ItemGroups;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
