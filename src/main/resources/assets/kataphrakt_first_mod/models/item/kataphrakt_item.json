@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kataphrakt_first_mod:item/kataphrakt_item"
+  }
+}
